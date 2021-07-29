@@ -1,0 +1,22 @@
+Fact_Day
+
+Game_Player_Seconds			:	Time spent in game by all players
+Game_Player_Spend_Microtrans_cents	:	Money spent in game by all players in microtransaction sales
+Game_Unique_Accounts			:	Count of unique accounts that have logged in to game
+Total_Player_Seconds			: 	Time spent across all Overboard games by all players
+Total_Player_Spend_Microtrans_cents	:	Money spent across all Overboard games by all players on microtransaction sales
+Total_Unique_Accounts			: 	Count of unique accounts that have logged in across all Overboard games
+
+
+Dim_Game
+
+Co-operative_Play			: 	Whether the game supports co-operative play (1=True)
+Player_vs_Player			: 	Whether the game supports player vs player (1=True)
+Achievements				: 	Whether the game supports achievements (1=True)
+Leaderboards				: 	Whether the game has player leaderboards (1=True)
+
+
+Dim_Platform
+
+Mobile					: 	Whether platform is a mobile technology (1=True)
+Console					: 	Whether platform is a console or designed specifically for gaming (1=True)
